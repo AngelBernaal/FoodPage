@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../public/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="output.css">
+    <title>GoFood!</title>
+</head>
+<body>
+    
+    <header class="flex items-center justify-around flex-col md:flex-row bg-black">
+
+        <div class="p-2">
+            <img src="../public/images/img1.png" alt="logo" class="size-12  transition-all hover:scale-125">
+        </div>
+
+        <nav class="flex justify-center items-center gap-4 flex-wrap pb-4 md:pb-0">           
+           <a href="#about" class="hover:text-red-600 text-white transition-all hover:scale-110">Nosotros</a>
+           <a href="#food" class="hover:text-red-600 text-white transition-all hover:scale-110">Comida</a>
+           <a href="#prox" class="hover:text-red-600 text-white transition-all hover:scale-110">Próximamente</a>
+        </nav>
+    </header>
+
+
+    <section class="flex flex-col mt-5 pt-5 min-h-[80vh] justify-center items-center gap-5 m-auto md:min-h-[90vh] md:mt-0 md:flex-row">
+        <div class="flex flex-col items-center md:flex-col md:items-start lg:items-start gap-5 p-4">
+        <h1 class="text-4xl">GoFood!</h1>
+        <p class="text-center md:text-left p-2 md:w-96 font-medium">Encuentra la comida que más te gusta a la velocidad de la luz. Sin excusas, sin enojos, sin esperas. </p>
+        <a href="#about" class="max-w-[max-content] bg-red-600 p-2 rounded-full text-white transition-all hover:scale-110">Conócenos.</a>
+        </div>
+        <img src="../public/images/frutas.png" alt="fruits" class="size-60 md:size-80 transition-all hover:scale-110">
+    </section>
+
+    <section id="about" class="flex flex-col py-10 min-h-[80vh] justify-center items-center gap-5 m-auto bg-black">
+        <h1 class="text-4xl text-white">Nosotros<span class="text-red-600">.</span></h1>
+        <p class="text-left p-8 text-white font-medium md:max-w-[70%] md:text-center">En nuestro mundo de ritmo frenético, ¿quién tiene tiempo para esperar interminablemente por una deliciosa comida? ¡Definitivamente no tú! Y eso es exactamente por qué estamos aquí para salvarte el día.
+            <br>
+            <br>
+            En nuestra emocionante empresa, entendemos perfectamente que el tiempo es un tesoro que no se puede desperdiciar. Es por eso que hemos diseñado un modelo que hará que tus papilas gustativas se vuelvan locas de alegría y satisfacción, ¡en tiempo récord!</p>
+            <img src="../public/images/img5.png" alt="food" class="size-36 transition-all hover:scale-125">
+    </section>
+
+    <section id="food" class="flex flex-col py-10 justify-center items-center gap-5">
+      
+        <h1 class="text-4xl">Comida<span class="text-red-600">.</span></h1>
+       
+        <div class="grid grid-cols-1 md:grid-cols-2 pt-5 gap-4 px-5">
+
+            <div class="flex flex-col items-center border border-black/30 p-4 rounded-lg gap-4 transition-all hover:scale-105">
+                <img src="../public/images/img3.png" alt="Desayunos" class="size-36">
+                <h2 class="text-2xl">Desayunos</h2>
+                <p class="text-center">
+                    ¡Desayunos que te despiertan sonriendo! </p>
+            </div>
+
+
+            <div class="flex flex-col items-center border border-black/30 p-4 rounded-lg gap-4 transition-all hover:scale-105">
+                <img src="../public/images/img4.png" alt="Bebidas" class="size-36">
+                <h2 class="text-2xl">Bebidas</h2>
+                <p class="text-center">¡Bebidas que despiertan tus papilas!</p>
+            </div>
+
+            <div class="flex flex-col items-center border border-black/30 p-4 rounded-lg gap-4 transition-all hover:scale-105">
+                <img src="../public/images/img2.png" alt="Comida Mexicana" class="size-36">
+                <h2 class="text-2xl">Mexicana</h2>
+                <p class="text-center">¡Sabor auténtico que te transporta a México!</p>
+            </div>
+
+            <div class="flex flex-col items-center border border-black/30 p-4 rounded-lg gap-4 transition-all hover:scale-105">
+                <img src="../public/images/img5.png" alt="Comida" class="size-36">
+                <h2 class="text-2xl">Carnes</h2>
+                <p class="text-center">¡Carnes jugosas que te hacen agua la boca!</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="prox" class="flex flex-col py-10 justify-center items-center gap-5 bg-black">
+        <h1 class="text-4xl text-white">Próximamente<span class="text-red-600">.</span></h1>
+        <p class="text-center font-bold text-white">
+            ¡Estamos llevando nuestros servicios al siguiente nivel para brindarte una experiencia aún mejor!</p>
+    </section>
+
+</body>
+</html>
